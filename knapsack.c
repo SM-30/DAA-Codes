@@ -24,7 +24,7 @@ int main()
     knapsack(x,w);
     printf("The final distribution:\n");
     for(i=0; i<n; i++)
-    printf("%.3lf ",x[i]);
+    printf("%.3lf part of %.3lf\n",x[i],w[i]);
     for(i=0; i<n; i++)
     mprofit += x[i] * p[i];
     printf("\nMaximum profit: %.3lf",mprofit);
